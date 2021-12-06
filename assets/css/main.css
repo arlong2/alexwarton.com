@@ -13,7 +13,6 @@
 
 .find-a-park {
 	font-family: "Cabin Sketch";
-	color: forestgreen;
 	font-size: 350%;
 }
 
@@ -143,7 +142,7 @@ input, select, textarea {
 		text-decoration: none;
 	}
 
-	.dark h1, .dark h2, .dark h3, .dark h5, .dark h6 {
+	.dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
 		color: #fff;
 	}
 
