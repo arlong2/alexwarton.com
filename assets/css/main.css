@@ -1,18 +1,29 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,400,400italic");
 @import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap');
-/*
-	Tessellate by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&family=Work+Sans:wght@400&display=swap');
 
 .profile-photo {
 	border-radius: 50%;
 }
 
+.project-image {
+	margin: 0 0 1em 0;
+}
+
+.project-info {
+	text-align: left;
+	margin-top: 10%;
+}
+
 .find-a-park {
 	font-family: "Cabin Sketch";
+	font-size: 350%;
+	margin-bottom: 47%;
+}
+
+.mountain-review {
+	font-family: "Reenie Beanie";
 	font-size: 350%;
 }
 
@@ -250,7 +261,7 @@ input, select, textarea {
 	}
 
 		.featured p {
-			text-align: center;
+			text-align: left;
 		}
 
 /* Container */
@@ -674,7 +685,7 @@ input, select, textarea {
 				}
 
 				.row > .col-12-wide {
-					width: 100%;
+					width: 50%;
 				}
 
 				.row > .off-12-wide {
@@ -1028,6 +1039,11 @@ input, select, textarea {
 							padding-top: 60px;
 						}
 
+						.find-a-park {
+							margin-bottom: 25%;
+							margin-top: 20%;
+						}
+
 		}
 
 		@media screen and (max-width: 1000px) {
@@ -1273,6 +1289,12 @@ input, select, textarea {
 							padding-top: 50px;
 						}
 
+				.featured p {
+					text-align: center;
+				}
+
+
+
 		}
 
 		@media screen and (max-width: 736px) {
@@ -1408,7 +1430,7 @@ input, select, textarea {
 					margin-left: 91.66667%;
 				}
 
-				.row > .col-12-mobile {
+				.row > .col-12-wide {
 					width: 100%;
 				}
 
@@ -1516,6 +1538,10 @@ input, select, textarea {
 
 						.row.gtr-200.gtr-uniform > * {
 							padding-top: 40px;
+						}
+
+						.find-a-park {
+							margin-bottom: 5%;
 						}
 
 		}
