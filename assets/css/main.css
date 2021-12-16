@@ -11,6 +11,10 @@
 	margin: 0 0 1em 0;
 }
 
+.project-image-library {
+	margin: 2em 0 0 0;
+}
+
 .project-info {
 	text-align: left;
 	margin-top: 10%;
@@ -792,6 +796,11 @@ input, select, textarea {
 
 						.row.gtr-200.gtr-uniform > * {
 							padding-top: 80px;
+						}
+
+						.find-a-park {
+							margin-bottom: 27%;
+							margin-top: 20%;
 						}
 
 		}
