@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.kw-logo {
+  height: 5%;
+  width: 50%;
+}
+
+.alex-photo-one {
+  height: 5%;
+  width: 50%;
+  border-radius: 100%;
+}
+
+.App-header {
+  background-image: url("https://images.pexels.com/photos/1341279/pexels-photo-1341279.jpeg");
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  width: 25%;
+}
+
+button:hover {
+  background-color: transparent;
+  opacity: 50%;
+  border-color: red;
+}
