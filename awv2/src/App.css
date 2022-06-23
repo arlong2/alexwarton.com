@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&family=Work+Sans:wght@300&display=swap');
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.pop-ups {
+  display: flex;
+}
+
+.kw-logo {
+  height: 5%;
+  width: 50%;
+  margin-top: 30%;
+}
+
+.alex-photo-one {
+  height: 5%;
+  width: 10%;
+  /*border-radius: 50%;*/
+}
+
+.alex-photo-hidden {
+  height: 5%;
+  width: 10%;
+  opacity: 0%;
+  /*border-radius: 50%;*/
+}
+
+.App-header {
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+a {
+  background-color: transparent;
+  border: none;
+  width: 50%;
+}
+
+a:hover {
+  background-color: transparent;
+  opacity: 50%;
+  border-color: red;
+}
+
+button {
+  color: white;
+  background-color: transparent;
+  border: none;
+  width: 50%;
+  font-family: 'Reenie Beanie';
+  font-size: 500%;
+  animation: fadeIn 5s;
+}
+
+button:hover {
+  background-color: transparent;
+  opacity: 50%;
+  border-color: red;
+}
+
+.spot-link {
+  color: black;
+  background-color: transparent;
+  border: none;
+  width: 50%;
+  font-family: 'Reenie Beanie';
+  font-size: 500%;
+  animation: fadeIn 5s;
+  text-decoration: none;
+}
+
+.spot-link:hover {
+  color: white;
+  opacity: 50%;
+  border-color: red;
+}
