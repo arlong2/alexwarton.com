@@ -1,22 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&family=Work+Sans:wght@300&display=swap');
 
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: black;
+  width: 100%;
+  margin-top: 5%;
 }
 
 .pop-ups {
   display: flex;
 }
 
-.kw-logo {
-  height: 5%;
+.kw-logo { 
   width: 50%;
-  margin-top: 30%;
+  display: block;
 }
 
 .alex-photo-one {
@@ -30,6 +26,11 @@
   width: 10%;
   opacity: 0%;
   /*border-radius: 50%;*/
+}
+
+header {
+  display: flex;
+  flex-direction: column;
 }
 
 .App-header {
@@ -46,7 +47,9 @@
 a {
   background-color: transparent;
   border: none;
-  width: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 a:hover {
@@ -72,10 +75,9 @@ button:hover {
 }
 
 .spot-link {
-  color: black;
+  color: white;
   background-color: transparent;
   border: none;
-  width: 50%;
   font-family: 'Reenie Beanie';
   font-size: 500%;
   animation: fadeIn 5s;
@@ -86,4 +88,16 @@ button:hover {
   color: white;
   opacity: 50%;
   border-color: red;
+}
+
+@media (max-width: 1000px) {
+  body {
+    margin-top: 25%;
+  }
+}
+
+@media (max-width: 700px) {
+  body {
+    margin-top: 50%;
+  }
 }
