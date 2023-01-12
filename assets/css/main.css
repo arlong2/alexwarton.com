@@ -2,8 +2,9 @@
 
 body {
   background-color: black;
-  width: 100%;
-  margin-top: 5%;
+  width: 90%;
+  margin-top: 2%;
+  margin-left: 5%;
 }
 
 .pop-ups {
@@ -11,14 +12,19 @@ body {
 }
 
 .kw-logo { 
-  width: 50%;
+  width: 35%;
   display: block;
 }
 
-.alex-photo-one {
-  height: 5%;
-  width: 10%;
-  /*border-radius: 50%;*/
+.photo-one {
+  width: 50%;
+  border-radius: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  /*padding-bottom: 5%;*/
+  opacity: 80%;
 }
 
 .alex-photo-hidden {
@@ -30,7 +36,23 @@ body {
 
 header {
   display: flex;
+  flex-direction: row;
+}
+
+h3 {
+  font-family: 'Reenie Beanie';
+  font-size: 400%;
+  color: white;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
   flex-direction: column;
+  width: 75%;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
 }
 
 .App-header {
@@ -92,12 +114,65 @@ button:hover {
 
 @media (max-width: 1000px) {
   body {
-    margin-top: 25%;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 900px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+  }
+  
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container {
+    width: 100%;
+    margin: auto 0;
+    padding-bottom: 20%;
+  }
+
+  h3 {
+    font-size: 300%;
+  }
+
+  .photo-one {
+    width: 80%;
+    padding-bottom: 10%;
   }
 }
 
 @media (max-width: 700px) {
   body {
-    margin-top: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+  }
+  
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container {
+    width: 100%;
+    margin: auto 0;
+    padding-bottom: 20%;
+  }
+
+  h3 {
+    font-size: 200%;
+  }
+
+  .photo-one {
+    width: 90%;
+    padding-bottom: 10%;
   }
 }
