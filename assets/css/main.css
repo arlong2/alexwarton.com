@@ -18,13 +18,14 @@ body {
 
 .photo-one {
   width: 50%;
-  border-radius: 25%;
+  border-radius: 15%;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: auto;
+  margin-bottom: 2%;
   /*padding-bottom: 5%;*/
-  opacity: 80%;
+  /* opacity: 80%; */
 }
 
 .alex-photo-hidden {
@@ -44,6 +45,29 @@ h3 {
   font-size: 400%;
   color: white;
   margin: 0 auto;
+  margin-bottom: 2%;
+  display: flex;
+  justify-content: center;
+}
+
+h4 {
+  font-family: 'Reenie Beanie';
+  font-size: 150%;
+  color: white;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+}
+
+h5 {
+  font-family: 'Reenie Beanie';
+  font-size: 80%;
+  color: skyblue;
+  margin: 0 auto;
+  display: flex;
+  opacity: 85%;
+  justify-content: center;
 }
 
 .container {
@@ -97,20 +121,21 @@ button:hover {
 }
 
 .spot-link {
-  color: white;
+  color: blue;
   background-color: transparent;
   border: none;
   font-family: 'Reenie Beanie';
-  font-size: 500%;
+  font-size: 200%;
   animation: fadeIn 5s;
   text-decoration: none;
+  margin-bottom: 2%;
 }
 
-.spot-link:hover {
+/* .spot-link:hover {
   color: white;
   opacity: 50%;
   border-color: red;
-}
+} */
 
 @media (max-width: 1000px) {
   body {
@@ -174,5 +199,15 @@ button:hover {
   .photo-one {
     width: 90%;
     padding-bottom: 10%;
+  }
+
+  h5 {
+    font-family: 'Reenie Beanie';
+    font-size: 50%;
+    color: skyblue;
+    margin: 0 auto;
+    display: flex;
+    opacity: 85%;
+    justify-content: center;
   }
 }
