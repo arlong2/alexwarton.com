@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&family=Work+Sans:wght@300&display=swap');
 
 body {
-  background-color: rgb(219, 96, 96);
+  background-color: rgb(119, 109, 109);
   width: 90%;
   margin-top: 2%;
   margin-left: 5%;
@@ -125,7 +125,7 @@ button:hover {
   background-color: transparent;
   border: none;
   font-family: 'Reenie Beanie';
-  font-size: 200%;
+  font-size: 100%;
   animation: fadeIn 5s;
   text-decoration: none;
   margin-bottom: 2%;
